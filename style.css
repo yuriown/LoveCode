@@ -10,7 +10,6 @@
     padding: 0; outline: none;
     box-sizing: border-box;
     text-decoration: none;
-    text-transform: capitalize;
     transition: all .2s linear;
 }
 
@@ -150,6 +149,27 @@ body{
     color: #eee;
     font-size: 2.5rem;
     font-weight: 400    ;
+}
+
+.team button{
+    height: 4rem;
+    width: 18rem;
+    background: #fff;
+    color: #444;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    font-weight: 400;
+    box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
+}
+
+.team button:hover{
+    letter-spacing: .1rem;
+    background: var(--color);
+    color: #fff;
 }
 
 .home button{
@@ -362,7 +382,7 @@ body{
 }
 
 .team .row .card{
-    height: 35rem;
+    height: 45rem;
     width: 25rem;
     background: #fff;
     text-align: center;
@@ -447,13 +467,13 @@ body{
     width: 50vw;
 }
 
-.contact .row .form-container{
+.contact .row .whatsapp{
     width: 50%;
     text-align: left;
     padding: 0 5rem;
 }
 
-.contact .row .form-container input, textarea{
+.contact .row .whatsapp input, textarea{
     outline: none;
     border: none;
     height: 4rem;
@@ -465,28 +485,28 @@ body{
     font-size: 1.6rem;
 }
 
-.contact .row .form-container .inputBox{
+.contact .row .whatsapp .inputBox{
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.contact .row .form-container .inputBox input[type=text]{
+.contact .row .whatsapp .inputBox input[type=text]{
     width: 49%;
 }
 
-.contact .row .form-container input[type=email]{
+.contact .row .whatsapp input[type=email]{
     width: 100%;
 }
 
-.contact .row .form-container textarea{
+.contact .row .whatsapp textarea{
     width: 100%;
     height: 20rem;
     padding: 1rem;
     resize: none;
 }
 
-.contact .row .form-container input[type=submit]{
+.contact .row .whatsapp input[type=submit]{
     background-color: var(--color);
     color: #fff;
     cursor: pointer;
@@ -494,7 +514,7 @@ body{
     width: 100%;
 }
 
-.contact .row .form-container input[type=submit]:hover{
+.contact .row .whatsapp input[type=submit]:hover{
     opacity: .8;
     letter-spacing: .1rem;
 }
@@ -587,6 +607,11 @@ body{
     color: #fff;
     font-size: 1.8rem;
     padding: 0 1rem;
+}
+
+.footer .icons a:hover{
+    color: #c2baff;
+    letter-spacing: .1rem;
 }
 
 .footer span{
@@ -691,7 +716,7 @@ body{
         width: 100vw;
     }
 
-    .contact .row .form-container{
+    .contact .row .whatsapp{
         width: 95%;
         padding: 0 1.5rem;
     }
