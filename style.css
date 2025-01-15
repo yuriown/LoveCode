@@ -640,7 +640,7 @@ body{
     }
 
     .header .navbar.active{
-        top: 10%;
+        top: 5.5%;
     }
 
     .header .navbar ul{
@@ -741,14 +741,15 @@ body{
 }
 
 @media (max-width:550px){
-    .faq .row .image img{
-        margin-right: 15rem;
-        width: 100%;
+    .faq .row {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
     }
 
     .faq .row .accordion-container{
-        width: 40%;
-        margin-right: 55%;
+        width: 100%;
+        margin-left: 5rem;
     }
 }
 
