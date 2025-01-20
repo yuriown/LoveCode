@@ -382,7 +382,7 @@ body{
 }
 
 .team .row .card{
-    height: 45rem;
+    height: 50rem;
     width: 25rem;
     background: #fff;
     text-align: center;
@@ -419,12 +419,19 @@ body{
 .team .row .card .info .icons a{
     margin-top: 4rem;
     padding: 2 1rem;
-    font-size: 7rem;
+    font-size: 5rem;
     color: #333; 
 }
 
 .team .row .card .info .icons a:hover{
     color: var(--color);
+}
+
+.team .row .card .info .exclusivo{
+    margin-top: 3rem;
+    padding: 2 1rem;
+    font-size: 5rem;
+    color: #333; 
 }
 
 .team .row .card::before, .team .row .card::after{
