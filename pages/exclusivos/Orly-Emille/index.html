@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Elaborado</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"><span>S</span>ite <span>E</span>laborado</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#services">Mensagens</a>
+        <a href="#about">Destaque</a>
+        <a href="#gallery">Galeria</a>
+        <a href="#music">Músicas</a>
+        <a href="#review">Memórias</a>
+    </nav>
+
+    <div id="menu-bars" class="fas fa-bars"></div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Título</h3>
+    </div>
+
+    <div class="swiper-container home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/1.jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="images/2.jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="images/3.jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="images/4.jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="images/5.jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<section class="services" id="services">
+    <h1 class="heading"> Mensagens <span>Importantes</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-map-marked-alt"></i>
+            <h3>Como nos conhecemos?</h3>
+            <p>Texto exemplo</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-envelope"></i>
+            <h3>Momento Marcante</h3>
+            <p>Texto exemplo</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-music"></i>
+            <h3>Curiosidade Sobre Nós</h3>
+            <p>Texto exemplo</p>
+        </div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h1 class="heading">Foto <span>Destaque</span></h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="images/6.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h1 class="heading"> <span>Tempo</span> que estamos juntos:</h1>
+
+        <div id="contador"></div>
+
+</section>
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">Nossa <span>Galeria</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/3.jpeg" alt="">
+            <h3 class="title"></h3>
+        </div>
+
+        <div class="box">
+            <img src="images/5.jpeg" alt="">
+            <h3 class="title"></h3>
+        </div>
+
+        <div class="box">
+            <img src="images/9.jpeg" alt="">
+            <h3 class="title"></h3>
+        </div>
+    </div>
+</section>
+
+<section class="music" id="music">
+    <h1 class="heading"> Nossas <span>Músicas Especiais</span></h1>
+    
+    <div class="box-container">
+
+        <div class="box">
+            <h3 class="title">Secret Love</h3>
+            <p>♫</p>
+            <audio controls>
+                <source src="musics/1.mpeg" type="audio/mpeg">
+                Seu navegador não suporta o player de áudio.
+            </audio>
+        </div>
+
+        <div class="box">
+            <h3 class="title">Finally</h3>
+            <p>♪</p>
+            <audio controls>
+                <source src="musics/2.mpeg" type="audio/mpeg">
+                Seu navegador não suporta o player de áudio.
+            </audio>
+        </div>
+
+        <div class="box">
+            <h3 class="title">It's my beat</h3>
+            <p>♫</p>
+            <audio controls>
+                <source src="musics/3.mpeg" type="audio/mpeg">
+                Seu navegador não suporta o player de áudio.
+            </audio>
+        </div>
+    </div>
+</section>
+
+<section class="review" id="review">
+    <h1 class="heading">Memórias <span>Marcantes</span></h1>
+
+    <div class="review-slider swiper-container">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                
+                <div class="user">
+                    <img src="images/2.jpeg" alt="">
+                </div>
+                <p>01/01/2025</p>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="user">
+                    <img src="images/7.jpeg" alt="">
+                    <div class="user-info">
+                    </div>
+                </div>
+                <p>Exemplo de texto de memória marcante.</p>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="user">
+                    <img src="images/sua-foto-aqui.png" alt="">
+                    <div class="user-info">
+                    </div>
+                </div>
+                <p>Exemplo de texto de memória marcante.</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="footer" id="footer">
+    <div class="credit"><span>&copy;LoveCode | 2025</span></div>
+</section>
+
+
+
+<!-- theme toggler  -->
+
+<div class="theme-toggler">
+
+    <div class="toggle-btn">
+        <i class="fas fa-cog"></i>
+    </div>
+
+    <h3>choose color</h3>
+
+    <div class="buttons">
+        <div class="theme-btn" style="background: #ff34ff;"></div>
+        <div class="theme-btn" style="background: #f7b731;"></div>
+        <div class="theme-btn" style="background: #ff0033;"></div>
+        <div class="theme-btn" style="background: #20bf6b;"></div>
+        <div class="theme-btn" style="background: #fa8231;"></div>
+        <div class="theme-btn" style="background: #4542fc;"></div>
+    </div>
+
+</div>
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
