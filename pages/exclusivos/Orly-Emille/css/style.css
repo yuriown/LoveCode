@@ -14,6 +14,19 @@
     transition: .2s linear;
 }
 
+/* Garantir que o slider ocupe a largura correta */
+.home-slider, .review-slider {
+    max-width: 100%; /* Ajusta ao tamanho do dispositivo */
+    overflow: hidden; /* Evita que o conteúdo transborde */
+    margin: 0 auto; /* Centraliza no dispositivo */
+  }
+  
+  .swiper-slide {
+    width: auto; /* Permite que o Swiper controle o tamanho */
+    text-align: center;
+  }
+  
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -119,7 +132,6 @@ section{
 .home .content h3{
     color:#fff;
     font-size: 4.5rem;
-    text-transform: uppercase;
 }
 
 .home .content h3 span{
@@ -567,6 +579,10 @@ section{
 
     html{
         font-size: 50%;
+    }
+
+    .home .home-slider{
+        height: 50%;
     }
 
     .home .home-slider .swiper-slide{
